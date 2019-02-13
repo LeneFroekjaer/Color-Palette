@@ -4,6 +4,8 @@ body {
 
 label {
   font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
 }
 
 #colorwheel {
@@ -15,8 +17,12 @@ label {
   background: #f4f3f5;
 }
 
-.box {
+.colorboxes {
   display: inline-flex;
+  margin: 15px;
+}
+.box {
+  margin: 0;
   width: 100px;
   height: 100px;
   border: 1px solid black;
