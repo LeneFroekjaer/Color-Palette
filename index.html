@@ -5,8 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Color palette</title>
+    <link rel="stylesheet" href="colorpalette.css" />
   </head>
   <body>
+    <h1>Color Palette Designer</h1>
+    <h2>Choose your color:</h2>
+
+    <div>
+      <input type="color" id="colorwheel" name="colorwheel" value="#e66465" />
+      <label for="head">colorwheel</label>
+    </div>
+
+    <p class="baseTitle">HEX:</p>
+
+    <!-- Boxes where the colors go: -->
+    <div class="colorboxes">
+      <div class="box color_1"></div>
+      <div class="box color_2"></div>
+      <div id="base" class="box color_base"></div>
+      <div class="box color_3"></div>
+      <div class="box color_4"></div>
+    </div>
+
     <script src="colorpalette.js"></script>
   </body>
 </html>
